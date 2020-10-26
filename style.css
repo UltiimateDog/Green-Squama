@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0eff00;
+}
+/* WARNING: Menu desplegable */
+  #header {
+    margin: auto;
+    width: 1200px;
+    max-width: 95%;
+  }
+  ul, ol {
+    list-style: none;
+  }
+    .nav li a {
+      background-color: #000000;
+      color: #99ff9c;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+    }
+    .nav > li {
+      float: right;
+    }
+     .nav li a:hover {
+       background-color: #026305;
+     }
+    .nav li ul {
+      display: none;
+      position: absolute;
+      min-width 140px;
+    }
+     .nav li:hover > ul {
+       display: block;
+     }
+/* WARNING: Fin del menu desplegable */
+/* WARNING: Menu pegajoso */
+  .contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+  }
+    header nav {
+      background-color: #000000;
+    }
+      header nav div ul {
+        overflow: hidden;
+      }
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+/* WARNING: Fin del menu pegajoso */
+/* WARNING: Imagen */
+.mag {
+  height: 15px;
+  width: 15px;
+}
+/* WARNING: Fin de imagen */
+/* WARNING: Inicio de Ofertas */
+.logo {
+  border: 2px solid #066e00;
+  border-radius: 1000px;
+  position: relative;
+  left: 40%;
+  top: 50px;
+}
+  .ofertas-recientes {
+    border: 2px solid #066e00;
+    border-radius: 50px;
+    background-color: #a8ffa3;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    max-width: 310px;
+  }
+    .oferta {
+      margin: 15px;
+    }
+      .imagen {
+        height: 280px;
+        width: 280px;
+        margin: auto;
+        max-width: 280px;
+        border: 2px solid #066e00;
+      }
+          .info {
+            border: 1px solid #000000;
+            background-color: #ffffff;
+            font-size: 20px;
+          }
+              .subrayar {
+                color: #ff0000;
+                text-decoration: line-through;
+              }
+                .comprar {
+                  color: #00660c;
+                }
+.titulo {
+  background-color: #000000;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+  .ofertas-recientes-info {
+    border: 2px solid #066e00;
+    border-radius: 50px;
+    background-color: #a8ffa3;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    left: 350px;
+    max-width: 700px;
+  }
+      .oferta-info {
+        margin: 20px;
+        border: 2px solid #066e00;
+        border-radius: 25px;
+      }
+      #margen-b {
+        margin-bottom: 180px;
+      }
+      #margen-a {
+        margin-bottom: 120px;
+      }
+          .specify {
+            margin: 20px;
+            font-size: 20px;
+          }
+.ofertas-mejores {
+  border: 2px solid #066e00;
+  border-radius: 50px;
+  background-color: #a8ffa3;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1700px;
+  left: 73%;
+  max-width: 310px;
+}
+    .ofertas-mejores-info {
+      border: 2px solid #066e00;
+      border-radius: 50px;
+      background-color: #a8ffa3;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 570px;
+      left: 150px;
+      max-width: 700px;
+    }
+        #margen-c {
+          margin-bottom: 250px;
+        }
+        #margen-d {
+          margin-bottom: 250px;
+        }
+/* WARNING: Fin de Ofertas */
+/* WARNING: Inico del texto informativo */
+.carta {
+  position: relative;
+  top: 750px;
+  text-align: center;
+  max-width: 85%;
+  margin: auto;
+}
+    .carta h1 {
+      font-size: 100px;
+      margin: 40px;
+    }
+        .carta p {
+          font-size: 40px;
+        }
+/* WARNING: Fin del texto informativo */
+/* WARNING: Inico de mas Vendidos */
+.mas-vendidos {
+  border: 2px solid #066e00;
+  border-radius: 50px;
+  background-color: #a8ffa3;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 950px;
+  max-width: 1200px;
+}
+    .mas {
+      margin: auto;
+      padding-top: 5px;
+    }
+        .imagen1 {
+          height: 280px;
+          width: 280px;
+          margin: auto;
+          max-width: 280px;
+          border: 2px solid #066e00;
+          border-radius: 50px;
+        }
+#vendidos {
+  text-align: center;
+  border: 2px solid #000000;
+  border-radius: 100px;
+  font-size: 50px;
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+  top: 590px;
+}
+.mas-vendidos-info {
+  border: 2px solid #066e00;
+  border-radius: 50px;
+  background-color: #a8ffa3;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 900px;
+  max-width: 1200px;
+}
+    .mas-info {
+      max-width: 300px;
+      border: 2px solid #066e00;
+      font-size: 20px;
+    }
+    /* WARNING: Fin de mas vendidos */
+    /* WARNING: Inicio del cierre */
+.cierre {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+  top: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 100%;
+}
+    .cierre-info {
+      margin: 20px;
+      max-width: 500px;
+      margin: auto;
+      padding: 40px 0 40px 0;
+    }
+        .cierre-info a{
+          list-style: none;
+          color: #ffffff;
+        }
+/* WARNING: Fin del cierre */
+/* WARNING: Inicio animales */
+.titulo-animales {
+  background-color: #000000;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  top: 50px;
+}
+.compra {
+  border: 2px solid #066e00;
+  border-radius: 50px;
+  background-color: #a8ffa3;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 60px;
+  max-width: 1200px;
+}
+.compra-info {
+  border: 2px solid #066e00;
+  border-radius: 50px;
+  background-color: #a8ffa3;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 60px;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+.cierre-animales {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 100%;
+}
